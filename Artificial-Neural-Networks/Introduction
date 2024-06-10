@@ -1,0 +1,35 @@
+Introduction :
+
+Use ANN model to predict if the customer with the following informations will leave the bank: 
+
+  Geography: France
+  Credit Score: 600
+  Gender: Male
+  Age: 40 years old
+  Tenure: 3 years
+  Balance: $60000
+  Number of Products: 2
+  Does this customer have a credit card ? Yes
+  Is this customer an Active Member: Yes
+  Estimated Salary: $50000
+  
+ So should we say goodbye to that customer ?
+  
+ Dataset : Churn_Modelling.csv
+ 
+ Part1: 
+    Get train dataset and test dataset. Convert categorical data.
+ 
+ Part2: 
+    Uesd GridSearch to find the best parameters and best accuracy.
+        best parameters: {'epochs': 500, 'batch_size': 48, 'optimizer': 'rmsprop'}
+        best accuracy: 0.850625
+ 
+ Part3:
+    Build ANN model with the best parameters and predict.
+    
+ Confusion Matrix:
+    array([[1538,   57],
+       [ 253,  152]], dtype=int64)
+ 
+ Prediction output : False (Means customer will not leave the bank)

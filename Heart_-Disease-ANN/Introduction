@@ -1,0 +1,25 @@
+Introduction:
+
+Dataset:
+  https://archive.ics.uci.edu/ml/datasets/heart+Disease
+  
+Goal:
+  Use ANN model to predict heart disease.
+
+Part1: 
+    Get train dataset and test dataset. Fix the missing data.
+ 
+ Part2: 
+    Uesd GridSearch to find the best parameters and best accuracy.
+        best parameters: {'epochs': 100, 'optimizer': 'adam', 'batch_size': 32}
+        best accuracy: 0.566115702479
+ 
+ Part3:
+    Build ANN model with the best parameters and predict.
+    
+ Confusion Matrix:
+array([[33,  2,  0,  0,  0],
+       [ 9,  2,  2,  0,  0],
+       [ 2,  4,  0,  0,  0],
+       [ 1,  1,  2,  0,  0],
+       [ 1,  1,  1,  0,  0]], dtype=int64)
