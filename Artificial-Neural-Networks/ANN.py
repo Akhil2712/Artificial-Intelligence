@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Aug 24 12:46:52 2018
 
-@author: Kina
 
 Mission:
     ANN model to predict if the customer with the following informations 
