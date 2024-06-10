@@ -1,6 +1,4 @@
 """
-Created on Wed Jul 25 12:49:26 2018
-@author: Kina
 
 Project 1 : 
     Predict the price of homes at sale for the Aimes Iowa Housing dataset
