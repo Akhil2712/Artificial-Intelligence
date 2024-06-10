@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Wed Aug 29 13:12:50 2018
-
-@author: Kina
 
 Mission:
     Use ANN model to predict heart disease
