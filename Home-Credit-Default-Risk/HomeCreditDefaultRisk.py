@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Aug 12 14:10:40 2018
-@author: Kina
+
 
 Project 2 :
     Predict how capable each applicant is of repaying a loan
